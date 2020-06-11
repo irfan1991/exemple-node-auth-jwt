@@ -14,19 +14,19 @@ module.exports = function (app) {
     app.get("/api/test/all", controller.allAcess);
 
     app.get(
-        "api/test/user",
+        "/api/test/user",
         [authJwt.verifyToken],
         controller.userBoard
     );
 
     app.get(
-        "api/test/mod",
+        "/api/test/mod",
         [authJwt.verifyToken , authJwt.isModerator],
         controller.moderatorBoard
     );
 
     app.get(
-        "api/test/admin",
+        "/api/test/admin",
         [authJwt.verifyToken , authJwt.isAdmin],
         controller.adminBoard
     );
