@@ -1,0 +1,1038 @@
+Looking for git in: git
+Using git 2.17.1 from git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+Open repository: /latreact/my-lat2
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :src/services/article.service.js
+> git ls-files --stage -- /latreact/my-lat2/src/services/article.service.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show :src/components/add-article.component.js
+> git ls-files --stage -- /latreact/my-lat2/src/components/add-article.component.js
+> git show :src/services/article.service.js
+> git ls-files --stage -- /latreact/my-lat2/src/services/article.service.js
+> git show :src/components/add-article.component.js
+> git ls-files --stage -- /latreact/my-lat2/src/components/add-article.component.js
+> git show :src/components/profile.component.js
+> git ls-files --stage -- /latreact/my-lat2/src/components/profile.component.js
+> git cat-file -s fc2bd59e0e03300867598d5ac361878038ce1ba8
+> git show :src/components/add-article.component.js
+> git ls-files --stage -- /latreact/my-lat2/src/components/add-article.component.js
+> git show :src/components/profile.component.js
+> git ls-files --stage -- /latreact/my-lat2/src/components/profile.component.js
+> git cat-file -s fc2bd59e0e03300867598d5ac361878038ce1ba8
+> git show :src/components/add-article.component.js
+> git ls-files --stage -- /latreact/my-lat2/src/components/add-article.component.js
+> git show :src/components/profile.component.js
+> git ls-files --stage -- /latreact/my-lat2/src/components/profile.component.js
+> git cat-file -s fc2bd59e0e03300867598d5ac361878038ce1ba8
+> git show :src/components/add-article.component.js
+> git ls-files --stage -- /latreact/my-lat2/src/components/add-article.component.js
+> git show :src/App.js
+> git ls-files --stage -- /latreact/my-lat2/src/App.js
+> git cat-file -s 0d6dfcec85637a7a9d87b111a2e05e894827a041
+> git show :src/components/add-article.component.js
+> git ls-files --stage -- /latreact/my-lat2/src/components/add-article.component.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/services/article.service.js
+> git ls-files --stage -- /latreact/my-lat2/src/services/article.service.js
+> git show :src/App.js
+> git ls-files --stage -- /latreact/my-lat2/src/App.js
+> git cat-file -s 0d6dfcec85637a7a9d87b111a2e05e894827a041
+> git show :src/services/article.service.js
+> git ls-files --stage -- /latreact/my-lat2/src/services/article.service.js
+> git show :src/components/add-article.component.js
+> git ls-files --stage -- /latreact/my-lat2/src/components/add-article.component.js
+> git show :src/services/article.service.js
+> git ls-files --stage -- /latreact/my-lat2/src/services/article.service.js
+> git show :src/components/add-article.component.js
+> git ls-files --stage -- /latreact/my-lat2/src/components/add-article.component.js
+> git show :src/services/article.service.js
+> git ls-files --stage -- /latreact/my-lat2/src/services/article.service.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/components/add-article.component.js
+> git ls-files --stage -- /latreact/my-lat2/src/components/add-article.component.js
+> git show :src/components/profile.component.js
+> git ls-files --stage -- /latreact/my-lat2/src/components/profile.component.js
+> git cat-file -s fc2bd59e0e03300867598d5ac361878038ce1ba8
+> git show :src/components/add-article.component.js
+> git ls-files --stage -- /latreact/my-lat2/src/components/add-article.component.js
+> git show :src/components/article-list.component.js
+> git ls-files --stage -- /latreact/my-lat2/src/components/article-list.component.js
+> git show :src/components/add-article.component.js
+> git ls-files --stage -- /latreact/my-lat2/src/components/add-article.component.js
+> git show :src/components/article-list.component.js
+> git ls-files --stage -- /latreact/my-lat2/src/components/article-list.component.js
+> git show :src/services/article.service.js
+> git ls-files --stage -- /latreact/my-lat2/src/services/article.service.js
+> git show :src/components/article-list.component.js
+> git ls-files --stage -- /latreact/my-lat2/src/components/article-list.component.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/components/article.component.js
+> git ls-files --stage -- /latreact/my-lat2/src/components/article.component.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/App.css
+> git ls-files --stage -- /latreact/my-lat2/src/App.css
+> git cat-file -s 41d035801ae71341628c9a1d0e5f97a25aa117cf
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/components/article.component.js
+> git ls-files --stage -- /latreact/my-lat2/src/components/article.component.js
+> git show :src/components/article-list.component.js
+> git ls-files --stage -- /latreact/my-lat2/src/components/article-list.component.js
+> git show :src/components/article.component.js
+> git ls-files --stage -- /latreact/my-lat2/src/components/article.component.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/components/add-article.component.js
+> git ls-files --stage -- /latreact/my-lat2/src/components/add-article.component.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/App.js
+> git ls-files --stage -- /latreact/my-lat2/src/App.js
+> git cat-file -s 0d6dfcec85637a7a9d87b111a2e05e894827a041
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/components/article.component.js
+> git ls-files --stage -- /latreact/my-lat2/src/components/article.component.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/App.js
+> git ls-files --stage -- /latreact/my-lat2/src/App.js
+> git cat-file -s 0d6dfcec85637a7a9d87b111a2e05e894827a041
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/components/add-article.component.js
+> git ls-files --stage -- /latreact/my-lat2/src/components/add-article.component.js
+> git show :src/App.js
+> git ls-files --stage -- /latreact/my-lat2/src/App.js
+> git cat-file -s 0d6dfcec85637a7a9d87b111a2e05e894827a041
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/components/add-article.component.js
+> git ls-files --stage -- /latreact/my-lat2/src/components/add-article.component.js
+> git show :src/services/article.service.js
+> git ls-files --stage -- /latreact/my-lat2/src/services/article.service.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/services/auth.service.js
+> git ls-files --stage -- /latreact/my-lat2/src/services/auth.service.js
+> git cat-file -s 39179dc48d5f17a8f0f7984af7d8437360cdf6e9
+> git show :src/services/article.service.js
+> git ls-files --stage -- /latreact/my-lat2/src/services/article.service.js
+> git show :src/services/auth.service.js
+> git ls-files --stage -- /latreact/my-lat2/src/services/auth.service.js
+> git cat-file -s 39179dc48d5f17a8f0f7984af7d8437360cdf6e9
+> git show :src/services/article.service.js
+> git ls-files --stage -- /latreact/my-lat2/src/services/article.service.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/components/add-article.component.js
+> git ls-files --stage -- /latreact/my-lat2/src/components/add-article.component.js
+> git show :src/services/article.service.js
+> git ls-files --stage -- /latreact/my-lat2/src/services/article.service.js
+> git show :src/components/add-article.component.js
+> git ls-files --stage -- /latreact/my-lat2/src/components/add-article.component.js
+> git show :src/services/auth-header.js
+> git ls-files --stage -- /latreact/my-lat2/src/services/auth-header.js
+> git cat-file -s ac50c2858d446bccaebbbc1db851ed26cb46e18e
+> git show :src/components/add-article.component.js
+> git ls-files --stage -- /latreact/my-lat2/src/components/add-article.component.js
+> git show :src/services/auth.service.js
+> git ls-files --stage -- /latreact/my-lat2/src/services/auth.service.js
+> git cat-file -s 39179dc48d5f17a8f0f7984af7d8437360cdf6e9
+> git show :src/components/add-article.component.js
+> git ls-files --stage -- /latreact/my-lat2/src/components/add-article.component.js
+> git show :src/services/article.service.js
+> git ls-files --stage -- /latreact/my-lat2/src/services/article.service.js
+> git show :src/App.js
+> git ls-files --stage -- /latreact/my-lat2/src/App.js
+> git cat-file -s 0d6dfcec85637a7a9d87b111a2e05e894827a041
+> git show :src/services/auth-header.js
+> git ls-files --stage -- /latreact/my-lat2/src/services/auth-header.js
+> git cat-file -s ac50c2858d446bccaebbbc1db851ed26cb46e18e
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/services/article.service.js
+> git ls-files --stage -- /latreact/my-lat2/src/services/article.service.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/services/auth-header.js
+> git ls-files --stage -- /latreact/my-lat2/src/services/auth-header.js
+> git cat-file -s ac50c2858d446bccaebbbc1db851ed26cb46e18e
+> git show :src/components/add-article.component.js
+> git ls-files --stage -- /latreact/my-lat2/src/components/add-article.component.js
+> git show :src/services/auth-header.js
+> git ls-files --stage -- /latreact/my-lat2/src/services/auth-header.js
+> git cat-file -s ac50c2858d446bccaebbbc1db851ed26cb46e18e
+> git show :src/services/article.service.js
+> git ls-files --stage -- /latreact/my-lat2/src/services/article.service.js
+> git show :src/services/auth-header.js
+> git ls-files --stage -- /latreact/my-lat2/src/services/auth-header.js
+> git cat-file -s ac50c2858d446bccaebbbc1db851ed26cb46e18e
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/services/user.service.js
+> git ls-files --stage -- /latreact/my-lat2/src/services/user.service.js
+> git cat-file -s 3b34c03ddfd6d4ad228e1d75d33c3cbdbb899d1a
+> git show :src/services/auth-header.js
+> git ls-files --stage -- /latreact/my-lat2/src/services/auth-header.js
+> git cat-file -s ac50c2858d446bccaebbbc1db851ed26cb46e18e
+> git show :src/services/article.service.js
+> git ls-files --stage -- /latreact/my-lat2/src/services/article.service.js
+> git show :src/components/add-article.component.js
+> git ls-files --stage -- /latreact/my-lat2/src/components/add-article.component.js
+> git show :src/services/auth-header.js
+> git ls-files --stage -- /latreact/my-lat2/src/services/auth-header.js
+> git cat-file -s ac50c2858d446bccaebbbc1db851ed26cb46e18e
+> git show :src/services/user.service.js
+> git ls-files --stage -- /latreact/my-lat2/src/services/user.service.js
+> git cat-file -s 3b34c03ddfd6d4ad228e1d75d33c3cbdbb899d1a
+> git show :src/components/add-article.component.js
+> git ls-files --stage -- /latreact/my-lat2/src/components/add-article.component.js
+> git show :src/services/article.service.js
+> git ls-files --stage -- /latreact/my-lat2/src/services/article.service.js
+> git show :src/services/auth-header.js
+> git ls-files --stage -- /latreact/my-lat2/src/services/auth-header.js
+> git cat-file -s ac50c2858d446bccaebbbc1db851ed26cb46e18e
+> git show :src/services/user.service.js
+> git ls-files --stage -- /latreact/my-lat2/src/services/user.service.js
+> git cat-file -s 3b34c03ddfd6d4ad228e1d75d33c3cbdbb899d1a
+> git show :src/services/auth-header.js
+> git ls-files --stage -- /latreact/my-lat2/src/services/auth-header.js
+> git cat-file -s ac50c2858d446bccaebbbc1db851ed26cb46e18e
+> git show :src/services/article.service.js
+> git ls-files --stage -- /latreact/my-lat2/src/services/article.service.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/services/auth-header.js
+> git ls-files --stage -- /latreact/my-lat2/src/services/auth-header.js
+> git cat-file -s ac50c2858d446bccaebbbc1db851ed26cb46e18e
+> git show :src/services/auth.service.js
+> git ls-files --stage -- /latreact/my-lat2/src/services/auth.service.js
+> git cat-file -s 39179dc48d5f17a8f0f7984af7d8437360cdf6e9
+> git show :src/services/article.service.js
+> git ls-files --stage -- /latreact/my-lat2/src/services/article.service.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/components/article.component.js
+> git ls-files --stage -- /latreact/my-lat2/src/components/article.component.js
+> git show :src/components/article-list.component.js
+> git ls-files --stage -- /latreact/my-lat2/src/components/article-list.component.js
+> git show :src/services/article.service.js
+> git ls-files --stage -- /latreact/my-lat2/src/services/article.service.js
+> git show :src/components/article-list.component.js
+> git ls-files --stage -- /latreact/my-lat2/src/components/article-list.component.js
+> git show :src/services/article.service.js
+> git ls-files --stage -- /latreact/my-lat2/src/services/article.service.js
+> git show :src/components/article-list.component.js
+> git ls-files --stage -- /latreact/my-lat2/src/components/article-list.component.js
+> git show :src/components/article.component.js
+> git ls-files --stage -- /latreact/my-lat2/src/components/article.component.js
+> git show :src/components/article-list.component.js
+> git ls-files --stage -- /latreact/my-lat2/src/components/article-list.component.js
+> git show :src/services/article.service.js
+> git ls-files --stage -- /latreact/my-lat2/src/services/article.service.js
+> git show :src/components/article-list.component.js
+> git ls-files --stage -- /latreact/my-lat2/src/components/article-list.component.js
+> git show :src/components/article.component.js
+> git ls-files --stage -- /latreact/my-lat2/src/components/article.component.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/components/article-list.component.js
+> git ls-files --stage -- /latreact/my-lat2/src/components/article-list.component.js
+> git show :src/services/article.service.js
+> git ls-files --stage -- /latreact/my-lat2/src/services/article.service.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/components/article.component.js
+> git ls-files --stage -- /latreact/my-lat2/src/components/article.component.js
+> git show :src/services/article.service.js
+> git ls-files --stage -- /latreact/my-lat2/src/services/article.service.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/components/article-list.component.js
+> git ls-files --stage -- /latreact/my-lat2/src/components/article-list.component.js
+> git show :src/components/article.component.js
+> git ls-files --stage -- /latreact/my-lat2/src/components/article.component.js
+> git show :src/services/article.service.js
+> git ls-files --stage -- /latreact/my-lat2/src/services/article.service.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/components/article-list.component.js
+> git ls-files --stage -- /latreact/my-lat2/src/components/article-list.component.js
+> git show :src/components/article.component.js
+> git ls-files --stage -- /latreact/my-lat2/src/components/article.component.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/services/article.service.js
+> git ls-files --stage -- /latreact/my-lat2/src/services/article.service.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/components/article-list.component.js
+> git ls-files --stage -- /latreact/my-lat2/src/components/article-list.component.js
+> git show :src/components/article.component.js
+> git ls-files --stage -- /latreact/my-lat2/src/components/article.component.js
+> git show :src/services/article.service.js
+> git ls-files --stage -- /latreact/my-lat2/src/services/article.service.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/components/article-list.component.js
+> git ls-files --stage -- /latreact/my-lat2/src/components/article-list.component.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/services/article.service.js
+> git ls-files --stage -- /latreact/my-lat2/src/services/article.service.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/components/article-list.component.js
+> git ls-files --stage -- /latreact/my-lat2/src/components/article-list.component.js
+> git show :src/services/article.service.js
+> git ls-files --stage -- /latreact/my-lat2/src/services/article.service.js
+> git show :src/components/article-list.component.js
+> git ls-files --stage -- /latreact/my-lat2/src/components/article-list.component.js
+> git show :src/components/add-article.component.js
+> git ls-files --stage -- /latreact/my-lat2/src/components/add-article.component.js
+> git show :src/components/article-list.component.js
+> git ls-files --stage -- /latreact/my-lat2/src/components/article-list.component.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/App.js
+> git ls-files --stage -- /latreact/my-lat2/src/App.js
+> git cat-file -s 0d6dfcec85637a7a9d87b111a2e05e894827a041
+> git show :src/components/article-list.component.js
+> git ls-files --stage -- /latreact/my-lat2/src/components/article-list.component.js
+> git show :src/components/article.component.js
+> git ls-files --stage -- /latreact/my-lat2/src/components/article.component.js
+> git show :src/App.js
+> git ls-files --stage -- /latreact/my-lat2/src/App.js
+> git cat-file -s 0d6dfcec85637a7a9d87b111a2e05e894827a041
+> git show :src/components/article.component.js
+> git ls-files --stage -- /latreact/my-lat2/src/components/article.component.js
+> git show :src/App.js
+> git ls-files --stage -- /latreact/my-lat2/src/App.js
+> git cat-file -s 0d6dfcec85637a7a9d87b111a2e05e894827a041
+> git show :src/components/article.component.js
+> git ls-files --stage -- /latreact/my-lat2/src/components/article.component.js
+> git show :src/components/login.component.js
+> git ls-files --stage -- /latreact/my-lat2/src/components/login.component.js
+> git cat-file -s 462e8d1b0def9eb1175bbb2c03a720e4fbc053a8
+> git show :src/services/article.service.js
+> git ls-files --stage -- /latreact/my-lat2/src/services/article.service.js
+> git show :src/components/article-list.component.js
+> git ls-files --stage -- /latreact/my-lat2/src/components/article-list.component.js
+> git show :src/App.js
+> git ls-files --stage -- /latreact/my-lat2/src/App.js
+> git cat-file -s 0d6dfcec85637a7a9d87b111a2e05e894827a041
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/components/article.component.js
+> git ls-files --stage -- /latreact/my-lat2/src/components/article.component.js
+> git show :src/components/login.component.js
+> git ls-files --stage -- /latreact/my-lat2/src/components/login.component.js
+> git cat-file -s 462e8d1b0def9eb1175bbb2c03a720e4fbc053a8
+> git show :src/services/article.service.js
+> git ls-files --stage -- /latreact/my-lat2/src/services/article.service.js
+> git show :src/App.js
+> git ls-files --stage -- /latreact/my-lat2/src/App.js
+> git cat-file -s 0d6dfcec85637a7a9d87b111a2e05e894827a041
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/services/article.service.js
+> git ls-files --stage -- /latreact/my-lat2/src/services/article.service.js
+> git show :src/services/auth.service.js
+> git ls-files --stage -- /latreact/my-lat2/src/services/auth.service.js
+> git cat-file -s 39179dc48d5f17a8f0f7984af7d8437360cdf6e9
+> git show :src/services/article.service.js
+> git ls-files --stage -- /latreact/my-lat2/src/services/article.service.js
+> git show :src/services/auth.service.js
+> git ls-files --stage -- /latreact/my-lat2/src/services/auth.service.js
+> git cat-file -s 39179dc48d5f17a8f0f7984af7d8437360cdf6e9
+> git show :src/services/article.service.js
+> git ls-files --stage -- /latreact/my-lat2/src/services/article.service.js
+> git show :src/App.js
+> git ls-files --stage -- /latreact/my-lat2/src/App.js
+> git cat-file -s 0d6dfcec85637a7a9d87b111a2e05e894827a041
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/components/article-list.component.js
+> git ls-files --stage -- /latreact/my-lat2/src/components/article-list.component.js
+> git show :src/services/auth.service.js
+> git ls-files --stage -- /latreact/my-lat2/src/services/auth.service.js
+> git cat-file -s 39179dc48d5f17a8f0f7984af7d8437360cdf6e9
+> git status -z -u
+> git show :src/components/register.component.js
+> git ls-files --stage -- /latreact/my-lat2/src/components/register.component.js
+> git cat-file -s 2b0c0f5ad9d722b378f6620739ab20a9ee5a7f88
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/components/login.component.js
+> git ls-files --stage -- /latreact/my-lat2/src/components/login.component.js
+> git cat-file -s 462e8d1b0def9eb1175bbb2c03a720e4fbc053a8
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/components/home.component.js
+> git ls-files --stage -- /latreact/my-lat2/src/components/home.component.js
+> git cat-file -s e8be3667293b72fb4ea78537b9b9b04b23372a90
+> git show :src/components/add-article.component.js
+> git ls-files --stage -- /latreact/my-lat2/src/components/add-article.component.js
+> git show :src/components/home.component.js
+> git ls-files --stage -- /latreact/my-lat2/src/components/home.component.js
+> git cat-file -s e8be3667293b72fb4ea78537b9b9b04b23372a90
+> git show :src/components/add-article.component.js
+> git ls-files --stage -- /latreact/my-lat2/src/components/add-article.component.js
+> git show :src/components/home.component.js
+> git ls-files --stage -- /latreact/my-lat2/src/components/home.component.js
+> git cat-file -s e8be3667293b72fb4ea78537b9b9b04b23372a90
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/services/article.service.js
+> git ls-files --stage -- /latreact/my-lat2/src/services/article.service.js
+> git show :src/components/home.component.js
+> git ls-files --stage -- /latreact/my-lat2/src/components/home.component.js
+> git cat-file -s e8be3667293b72fb4ea78537b9b9b04b23372a90
+> git show :src/services/user.service.js
+> git ls-files --stage -- /latreact/my-lat2/src/services/user.service.js
+> git cat-file -s 3b34c03ddfd6d4ad228e1d75d33c3cbdbb899d1a
+> git show :src/components/home.component.js
+> git ls-files --stage -- /latreact/my-lat2/src/components/home.component.js
+> git cat-file -s e8be3667293b72fb4ea78537b9b9b04b23372a90
+> git show :src/services/user.service.js
+> git ls-files --stage -- /latreact/my-lat2/src/services/user.service.js
+> git cat-file -s 3b34c03ddfd6d4ad228e1d75d33c3cbdbb899d1a
+> git show :src/services/article.service.js
+> git ls-files --stage -- /latreact/my-lat2/src/services/article.service.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/components/home.component.js
+> git ls-files --stage -- /latreact/my-lat2/src/components/home.component.js
+> git cat-file -s e8be3667293b72fb4ea78537b9b9b04b23372a90
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/services/article.service.js
+> git ls-files --stage -- /latreact/my-lat2/src/services/article.service.js
+> git show :src/components/home.component.js
+> git ls-files --stage -- /latreact/my-lat2/src/components/home.component.js
+> git cat-file -s e8be3667293b72fb4ea78537b9b9b04b23372a90
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :package.json
+> git ls-files --stage -- /latreact/my-lat2/package.json
+> git cat-file -s c8f295c50a85c6b38a028284525abba2875ab0a6
+> git show :src/components/home.component.js
+> git ls-files --stage -- /latreact/my-lat2/src/components/home.component.js
+> git cat-file -s e8be3667293b72fb4ea78537b9b9b04b23372a90
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :package.json
+> git ls-files --stage -- /latreact/my-lat2/package.json
+> git cat-file -s c8f295c50a85c6b38a028284525abba2875ab0a6

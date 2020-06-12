@@ -11,6 +11,9 @@ module.exports = app => {
 
     //retrieve all published 
     router.get("/published", artilce.findAllPublished);
+    
+    //retrieve all user 
+     router.get("/user/:id", artilce.findAllUser);
 
     //retrieve a single article
     router.get("/:id", artilce.findOne);
@@ -20,6 +23,9 @@ module.exports = app => {
 
     //delete by id 
     router.delete("/:id", artilce.delete);
+
+      //delete by id 
+      router.delete("/user/:id", artilce.deleteUser);
 
     //delete all
     router.delete("/", artilce.deleteAll);
