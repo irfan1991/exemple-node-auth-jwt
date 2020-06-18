@@ -1,34 +1,44 @@
-module.exports = app => {
-    const artilce = require("../controllers/article.controller.js");
+const {authJwt} = require("../middleware");
+const artilce = require("../controllers/article.controller.js");
+const router =  require("express").Router();
 
-    var router =  require("express").Router();
+module.exports = app => {
+    app.use(function (req, res, next) {
+        res.header(
+            "Access-Control-Allow-Headers",
+            "x-access-token,Origin,Content-Type,Accept"
+        ) ;
+ 
+        next(); 
+    });
+   
 
     //create
-    router.post("/", artilce.create);
+    app.post("/api/article", [authJwt.verifyToken],artilce.create);
 
     //retrieve all
-    router.get("/",artilce.findAll);
+    app.get("/api/article", [authJwt.verifyToken],artilce.findAll);
 
     //retrieve all published 
-    router.get("/published", artilce.findAllPublished);
+    app.get("/api/article/published", artilce.findAllPublished);
     
     //retrieve all user 
-     router.get("/user/:id", artilce.findAllUser);
+    app.get("/api/article/user/:id",[authJwt.verifyToken], artilce.findAllUser);
 
     //retrieve a single article
-    router.get("/:id", artilce.findOne);
+    app.get("/api/article/:id",[authJwt.verifyToken], artilce.findOne);
 
     //update
-    router.put("/:id", artilce.update);
+    app.put("/api/article/:id",[authJwt.verifyToken], artilce.update);
 
     //delete by id 
-    router.delete("/:id", artilce.delete);
+    app.delete("/api/article/:id", [authJwt.verifyToken],artilce.delete);
 
-      //delete by id 
-      router.delete("/user/:id", artilce.deleteUser);
+    //delete by id 
+    app.delete("/api/article/user/:id", [authJwt.verifyToken],artilce.deleteUser);
 
     //delete all
-    router.delete("/", artilce.deleteAll);
+    app.delete("/api/article/",[authJwt.verifyToken], artilce.deleteAll);
 
-    app.use('/api/article', router);
+    // app.use('/api/article', router);
 };

@@ -203,7 +203,7 @@ exports.findAllPublished = (req, res) => {
                 title: dt.title,
                 description: dt.description,
                 username :  dt.user.username,
-                createdAt : new Intl.DateTimeFormat("en-GB", {
+                createdAt : new Intl.DateTimeFormat("en-US", {
                     year: "numeric",
                     month: "long",
                     day: "2-digit",
@@ -212,7 +212,7 @@ exports.findAllPublished = (req, res) => {
                    
                     
                   }).format(dt.createdAt),
-                updatedAt : new Intl.DateTimeFormat("en-GB", {
+                updatedAt : new Intl.DateTimeFormat("en-US", {
                     year: "numeric",
                     month: "long",
                     day: "2-digit",

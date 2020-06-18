@@ -1,12 +1,14 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 const cors = require("cors");
+const path = require('path');
 
 const app = express();
 
 var corsOptions = {
   origin: "http://localhost:8081"
 };
+
 
 app.use(cors(corsOptions));
 
@@ -28,6 +30,11 @@ app.get("/", (req, res) => {
 require('./app/routes/auth.routes')(app);
 require('./app/routes/user.routes')(app);
 require('./app/routes/article.routes') (app);
+require('./app/routes/upload.routes') (app);
+
+global.__basedir = __dirname;
+app.use(express.static(__basedir+'/resources'));
+
 
 // set port, listen for requests
 const PORT = process.env.PORT || 8080;
@@ -39,12 +46,12 @@ app.listen(PORT, () => {
 const db = require("./app/models");
 const Role = db.role;
 
-// db.sequelize.sync({force: true}).then(() => {
-//   console.log('Drop and Resync Db');
-//   initial();
-// });
+db.sequelize.sync({force: true}).then(() => {
+  console.log('Drop and Resync Db');
+  initial();
+});
 
- db.sequelize.sync();
+// db.sequelize.sync();
 
 function initial() {
   Role.create({
