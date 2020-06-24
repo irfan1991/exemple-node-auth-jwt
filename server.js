@@ -6,7 +6,7 @@ const path = require('path');
 const app = express();
 
 var corsOptions = {
-  origin: "http://localhost:8081"
+  origin: "https://article-irfan.herokuapp.com/"
 };
 
 
