@@ -21,6 +21,9 @@ module.exports = app => {
 
     //retrieve all published 
     app.get("/api/article/published", artilce.findAllPublished);
+
+     //retrieve all article user
+     app.get("/api/article/usercount", artilce.findArticleUser);
     
     //retrieve all user 
     app.get("/api/article/user/:id",[authJwt.verifyToken], artilce.findAllUser);

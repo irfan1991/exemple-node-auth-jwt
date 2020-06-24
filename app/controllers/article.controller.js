@@ -2,7 +2,7 @@ const db = require("../models");
 const Article =db.articles;
 const User = db.user;
 const Op = db.Sequelize.Op;
-
+const sequelize = db.sequelize;
 
 //create and save
 exports.create = (req, res) => {
@@ -237,6 +237,53 @@ exports.findAllUser = (req, res) => {
     const userId = req.params.id;
     Article.findAll({where : {userId :  userId}})
     .then( data => {
+        res.send(data);
+    })
+    .catch( err => {
+        res.status(500).send({
+            message :  err.message ||  `Some error occured while removing all articles`
+        });
+    });
+};
+
+
+
+//find all published
+exports.findArticleUser = (req, res) => {
+    User.hasMany(Article, {foreignKey: 'id'})
+    Article.belongsTo(User, {foreignKey: 'userId'})
+    Article.findAll({attributes: ['title', sequelize.fn('COUNT', sequelize.col('userId'))], include: [{ model: User, attributes: ['username'] }], 
+    group: ['userId','title','description']},{raw: true})
+    .then( data => {
+        const dat = data.map(dt => {
+            //tidy up the user data
+            return Object.assign(
+              {},
+              {
+                id: dt.id,
+                title: dt.title,
+                description: dt.description,
+                username :  dt.user.username,
+                createdAt : new Intl.DateTimeFormat("en-US", {
+                    year: "numeric",
+                    month: "long",
+                    day: "2-digit",
+                    hour: 'numeric', minute: 'numeric', second: 'numeric', 
+                    timeZone: 'Asia/Jakarta',
+                   
+                    
+                  }).format(dt.createdAt),
+                updatedAt : new Intl.DateTimeFormat("en-US", {
+                    year: "numeric",
+                    month: "long",
+                    day: "2-digit",
+                    hour: 'numeric', minute: 'numeric', second: 'numeric', 
+                    timeZone: 'Asia/Jakarta',
+                   
+                  }).format(dt.updatedAt),
+                published : dt.published
+              });
+            });
         res.send(data);
     })
     .catch( err => {
