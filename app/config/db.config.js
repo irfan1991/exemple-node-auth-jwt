@@ -1,5 +1,5 @@
 module.exports = {
-    HOST: "ck4rteef.epizy.com",
+    HOST: "sql102.epizy.com",
     USER: "epiz_26099117",
     PASSWORD: "RI9wbrmfgaOz",
     DB: "epiz_26099117_articles",
